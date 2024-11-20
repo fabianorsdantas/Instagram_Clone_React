@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fafafa;
+  color: #262626;
+}
+
+header {
+  height: 54px;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+nav {
+  height: 54px;
+  width: calc(100vw - 36px);
+  margin: 0 auto;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.mobile {
+  display: flex;
+}
+
+nav.desktop {
+  display: none;
+}
+
+ion-icon {
+  color: #000;
+}
+
+nav ion-icon {
+  font-size: 22px;
+}
+
+nav img {
+  width: 103px;
+}
+
+.container {
+  margin: 54px 0;
+}
+
+.stories {
+  height: 121px;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 0 18px;
+  overflow: hidden;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.story div {
+  width: 66px;
+  height: 66px;
+  background: url("../assets/stories.png");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story img {
+  min-width: 56px;
+}
+
+.story p {
+  width: 66px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stories ion-icon,
+aside {
+  display: none;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.post {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  background: #fff;
+}
+
+.post-header {
+  height: 61px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 17px;
+  margin-bottom: 1px solid #efefef;
+}
+
+.post-header img {
+  width: 32px;
+  margin-right: 15px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.post-header ion-icon {
+  font-size: 16px;
+  color: #262626;
+}
+
+.post-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.post-item.hidden ion-icon {
+  display: none;
+}
+
+.post-item ion-icon {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+  font-size: 150px;
+  color: #fff;
+  pointer-events: none;
+  animation: scale-up-center 300ms ease-in-out;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.right-icon,
+.reactions ion-icon[name*="bookmark"] {
+  margin-left: auto;
+}
+
+.post > img,
+.post video {
+  width: 100%;
+}
+
+.reactions {
+  height: 42px;
+  padding: 0 17px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.reactions ion-icon {
+  font-size: 22px;
+}
+
+.post-footer ion-icon[name="heart"] {
+  color: #ff3e5b;
+}
+
+.likes-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+
+  padding: 0 17px;
+}
+
+.likes-info p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.all-comments {
+  font-size: 16px;
+  line-height: 18px;
+
+  font-weight: 500;
+  color: #8e8e8e;
+  padding: 0 17px;
+  margin: 14px 0 5px;
+}
+
+.comment {
+  height: 20px;
+  font-size: 14px;
+  line-height: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px;
+}
+
+.comment ion-icon {
+  font-size: 14px;
+}
+
+.new-comment {
+  height: 50px;
+  padding: 0 17px;
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #dbdbdb;
+}
+
+.new-comment ion-icon {
+  font-size: 20px;
+  color: #262626;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  color: #979797;
+}
+
+.new-comment input {
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+}
+
+.new-comment button {
+  color: #b2dffc;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+footer {
+  height: 54px;
+  width: 100vw;
+  padding: 0 18px;
+
+  background: #fff;
+  border-top: 1px solid #dbdbdb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer ion-icon {
+  font-size: 22px;
+}
