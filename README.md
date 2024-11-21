@@ -47,7 +47,7 @@ Para desenvolver um projeto completo de uma rede social como o Instagram são ne
 ## 🚀 Instalação
 Baixe o repositório do projeto no github e execute em sua máquina. Ou, se preferir, acesse o aplicativo online no link abaixo:
 
-💬 [**Acesse aqui**](https://fabianorsdantas.github.io/Instagram_Clone_React/)
+💬 [**Acesse aqui**](https://instagram-clone-react-sigma.vercel.app/)
 
 ## 💻 Preview
 
