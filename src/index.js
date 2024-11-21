@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 import "./styles/reset.css";
 import "./styles/styles.css";
@@ -15,17 +15,9 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.querySelector(".root"));
-=======
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-import App from "./App";
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
->>>>>>> 4cd795bff4ab83c814fc54d6108c9ed11bf935f5
