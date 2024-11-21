@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<p align="center"><img src="public/favicon.ico" height="80px"/></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <p align ="center">Instagram</p>
 
-## Available Scripts
+### <p align ="center">Tecnologias utilizadas:</p>
 
-In the project directory, you can run:
+<p align = "center">
+   <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="30px">
+   <img align="center" alt="CCS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="30px"/>
+   <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="30px"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"  height="30px"/>
+</p>
 
-### `npm start`
+## 📖 Descrição
+Nesse projeto fizemos um aplicativo clone da rede social Instagram. O desenvolvimento envolveu várias etapas e a integração de diferentes tecnologias como HTML5, CSS3, JavaScript e React. Nele é possível visualizar os posts disponíveis no feed do usuário, curtir posts e comentários.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Pré-requisitos
+Para desenvolver um projeto completo de uma rede social como o Instagram são necessárias as seguintes habilidades:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• HTML e CSS
 
-### `npm test`
+    Domínio de conceitos de estruturação de páginas HTML.
+    Conhecimento em CSS Flexbox e Grid para layout responsivo.
+    Capacidade de usar pré-processadores como SASS (opcional).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• JavaScript (ES6+)
 
-### `npm run build`
+    Manipulação de arrays e objetos (e.g., map, filter, reduce).
+    Uso de promises e async/await para requisições assíncronas.
+    Conhecimento básico sobre APIs REST.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• React.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Compreensão de componentes funcionais e props.
+    Uso de useState e useEffect para gerenciamento de estado e ciclo de vida.
+    Integração com React Router para navegação entre páginas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Design Responsivo
 
-### `npm run eject`
+    Familiaridade com media queries para adaptar o layout a diferentes tamanhos de tela (mobile-first).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• Noções Básicas de Backend (opcional inicialmente)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Uso de Firebase ou criação de um backend simples com Node.js e Express.js.
+    Conhecimento em armazenamento de dados no formato JSON.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Instalação
+Baixe o repositório do projeto no github e execute em sua máquina. Ou se preferir, acesse o aplicativo online no link abaixo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💬 [**Acesse aqui**](https://fabianorsdantas.github.io/Bate_Papo_UOL/)
 
-## Learn More
+## 💻 Preview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div style="display: flex; flex-wrap: wrap; justify-content: center;" >
+<img src="./public/preview/desktop.png" style="margin: 10px">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎮 Usando
 
-### Code Splitting
+<img src="./public/preview/animação.gif" style="margin: 10px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</div>
 
-### Analyzing the Bundle Size
+$~$
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[🔝 De volta ao topo](#bate-papo-uol)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
