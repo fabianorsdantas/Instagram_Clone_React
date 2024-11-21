@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import "./styles/reset.css";
-import "./styles/styles.css";
+import "./css/reset.css";
+import "./css/styles.css";
 
 import { AppRoutes } from "./routes";
 import { BrowserRouter } from "react-router-dom";
