@@ -56,7 +56,7 @@ Baixe o repositório do projeto no github e execute em sua máquina. Ou, se pref
 
 ## 🎮 Usando
 
-<img src="./public/preview/animação.gif" style="margin: 10px">
+<img src="./public/preview/usando.gif" style="margin: 10px">
 
 </div>
 
