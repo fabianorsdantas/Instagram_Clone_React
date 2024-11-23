@@ -1,21 +1,13 @@
-import { userData } from "../../../mock";
+import {userData} from "../../../mock";
 import { User } from "./User";
 
 export function UserProfile() {
+  //const data = userData();
   return (
-    <>
-      {userData.map((data) => {
-        const { name, userName, userImage } = data;
-
-        return (
-          <User
-            key={name}
-            name={name}
-            userName={userName}
-            userImage={userImage}
-          />
-        );
-      })}
+    <>       
+      
+      <User/>
+        
     </>
   );
 }

@@ -1,17 +1,32 @@
-import userProfile from "../assets/images/users/catanacomics.svg";
+import userProfile from "../assets/images/users/fabiano.jpg";
 import user1 from "../assets/images/user-suggestions/bad.vibes.memes.svg";
 import user2 from "../assets/images/user-suggestions/chibirdart.svg";
 import user3 from "../assets/images/user-suggestions/razoesparaacreditar.svg";
 import user4 from "../assets/images/user-suggestions/adorable_animals.svg";
 import user5 from "../assets/images/user-suggestions/smallcutecats.svg";
+//import React from "react";
 
-export const userData = [
+/*export function userData (){
+  const [name, setName]=React.userState("Fabiano");
+  const [userName, setUserName]=React.userState("fabianodantas");
+  const [userImage, setUserImage]=React.userState(userProfile);
+}*/
+
+
+/*export function userData(){
+  const name = "Fabiano";
+  const userName = "fabianodantas";
+  const userImage = userProfile;
+}*/
+
+
+/*export const userData = [
   {
-    name: "Catana",
-    userName: "catanacomics",
+    name: "Fabiano",
+    userName: "fabianodantas",
     userImage: userProfile,
   },
-];
+];*/
 
 export const suggestedProfilesData = [
   {
